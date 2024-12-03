@@ -4,12 +4,22 @@ using namespace std;
 
 int main()
 {
-  int t;
-  cin >> t;
-  string s;
-  while (t--)
+  int n;
+  cin >> n;
+  while (n--)
   {
-    cin >> s;
-    cout << s.front() << s.size() - 2 << s.back();
+    string word;
+    cin >> word;
+
+    if (word.length() > 10)
+    {
+      cout << word.front() << (word.length() - 2) << word.back() << endl;
+    }
+    else
+    {
+      cout << word << endl;
+    }
   }
+
+  return 0;
 }
