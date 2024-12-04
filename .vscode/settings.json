@@ -77,4 +77,5 @@
     "valarray": "cpp"
   },
 "github.copilot.editor.enableAutoCompletions": false,
+"github.copilot.editor.enableCodeActions": false,
 }
